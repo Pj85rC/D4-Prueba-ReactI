@@ -1,0 +1,15 @@
+.containerBox{
+  width: 74.5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: absolute;
+  margin-top: 40px;
+}
+  
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
