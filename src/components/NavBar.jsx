@@ -21,7 +21,7 @@ const NavBar = ({ FilterHandler, OrderHandler }) => {
   
   return (
     <nav className="navBar">
-      <img src="/src/assets/logo.png" alt="" />
+      <img src="assets/logo.png" alt="" />
       <input
         className="search"
         type="text"

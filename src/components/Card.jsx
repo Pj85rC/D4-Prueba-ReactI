@@ -6,7 +6,7 @@ const Card = ({saints}) => {
       <div key={saints.id} className="card">
         <img
           className="pBox"
-          src="/src/assets/pboxPhoenix.png"
+          src="assets/pboxPhoenix.png"
           alt="pandorabox"
         />             
         <h3 className="card-title">{saints.name?.split(' ')[0]}</h3>
